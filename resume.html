@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="style.css">
+    <script>        
+        function goToPortfolio() {
+            window.location.href = "portfolio.html";
+        }
+
+        function goToServices() {
+            window.location.href = "resume.html";
+        }
+
+        function goToIndex() {
+            window.location.href = "index.html";
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+    <div class="content-wrapper">
+        <div class="content">
+            <h1 style="text-align: center">Резюме</h1>
+            <h2>Основная информация</h2>
+            <p>Исаков Иван Алексеевич</p>
+            <p>22.02.2005</p>
+            <h2>Образование</h2>
+            <p>РТУ МИРЭА</p>
+            <p>ИПТИП(Иститут Перспективных Технлологий Индустриального Программирования)</p>
+            <p>2 Курс(2026 год окончания)</p>
+            <h2>Навыки</h2>
+            <ul type="square">
+                <li>Уверенное владение ПК</li>
+                <li>Основы C++ ,HTML/CSS, JavaScript, Python</li>
+                <li>Умею разрабатывать UML диаграммы, читать документацию</li>
+                <li>Владею Adobe Photoshop, Adobe Premiere</li>
+                <li>Знание английского языка</li>
+                <li>Быстро обучаюсь</li>
+            </ul>
+            <div><span style="text-align: right;"> <a style="text-align:end;color: rgb(21, 23, 25);" href="resume.pdf" download="resume">Скачать Резюме</a></span></div>
+            <div><a href="#" style="color: rgb(21, 23, 25);" onclick="goToIndex()">Вернуться на главную</a> </div>
+        
+        </div>
+    </div>
+</div>
+</body>
+</html>

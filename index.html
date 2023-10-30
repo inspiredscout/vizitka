@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ivan Dev</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function goToPortfolio() {
+            window.location.href = "portfolio.html";
+        }
+
+        function goToResume() {
+            window.location.href = "resume.html";
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="title-block">
+            <h1>Full Stack developer Ivan</h1>
+        </div>
+        <div class="userpic"></div>
+    </div>
+    <div class="text-box">
+        <ul><a style="display: block;" href="#"class="btn btn-white btn animated" onclick="goToPortfolio()">Портфолио</a></ul>
+        <ul><a style="display: block; margin-top: 60px;" href="#" class="btn btn-white btn animated" onclick="goToResume()">Резюме</a></ul>
+    </div>
+    <!--<nav class="nav">
+        <ul>
+            <li><a href="#" onclick="goToPortfolio()">Портфолио</a></li>
+            <li><a href="#" onclick="goToResume()">Резюме</a></li>
+        </ul>
+    </nav>-->
+    <div style="margin-top: 110px;" class="content-wrapper">
+        <div class="content">
+            <h3>About me:</h3>
+            <p>
+                I am a beginner full-stack developer studying at RTU MIREA. I am in the 2nd year, studying programming languages such as C++, JavaScript, Node.js, HTML & CSS.
+            </p>
+            <h3>Contacts</h3>
+            <a href="https://github.com/inspiredscout"><img src="github.svg" width="50px" height="50px"></a>
+            <a href="http://t.me/inspiredscout"><img src="telegram.svg"></a>
+            <a href="https://vk.com/cykatieban"><img src="vk.svg"></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
