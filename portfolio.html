@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="style.css">
+    <script>        
+        function goToPortfolio() {
+            window.location.href = "portfolio.html";
+        }
+
+        function goToServices() {
+            window.location.href = "resume.html";
+        }
+
+        function goToIndex() {
+            window.location.href = "index.html";
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+    <div class="content-wrapper">
+        <div class="content">
+            <h1 style="text-align: center">Портфолио</h1>
+            <h2>Мои работы</h2>
+            <ul type="square">
+                <li><span style="text-align: right;"> <a style="text-align:end;color: rgb(21, 23, 25);" href="rvc.mp3" download="rvc">Озвучивание любого текста с помощью нейронных rvc моделей</a></span></li>
+                <li><audio controls>
+                    <source src="rvc.mp3" type="audio/mp3" />
+                    <p>
+                        Your browser doesn't support HTML5 audio. Here is a
+                        <a href="rvc.mp3">link to the audio</a> instead.
+                      </p>
+                    </audio></li>
+                <li><span style="text-align: right;"> <a style="text-align:end;color: rgb(21, 23, 25);" href="4k.mp4" download="4k">Улучшения качество видео с помощью технологий ИИ(720p --> 4k)</a></span></li>
+                <li> <div class="movie-wrap">
+                    <video class="movie" src="4k.mp4" width="640" height="480" controls>
+                        Ваш браузер не поддерживает HTML5 видео.
+                    </video>
+                </div></li>
+            </ul>
+            <div><a href="#" style="color: rgb(21, 23, 25);" onclick="goToIndex()">Вернуться на главную</a> </div>
+        
+        </div>
+    </div>
+</div>
+</body>
+</html>
